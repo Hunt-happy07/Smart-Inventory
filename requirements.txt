@@ -1,0 +1,9 @@
+# Lower bounds (not exact pins) so it installs on newer Python versions too
+# (your .pyc files show Python 3.14, which old pins like numpy==1.26.4 don't support).
+Flask>=3.0.3
+scikit-learn>=1.5.1
+pandas>=2.2.2
+numpy>=1.26.4
+
+# Optional: only needed for HTTPS=1 (phone camera scanning over Wi-Fi)
+cryptography>=42.0
